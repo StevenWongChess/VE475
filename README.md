@@ -1,3 +1,25 @@
 # VE475
 
-Welcome to VR475, a course offered by UMJI for juniors and seniors. Despite the VR title, this is a CS course if you believe in Trump. I collected some lecture notes with annotation on it. The secret to success in VR475 is to write essays carefully. If you did well in VY100 and VY200, no need to worry about this course. But you should notice that thi course counts for humanity, which means you have to fulfill another 3 credit in social science to graduate. Have a nice journey!
+I was `teaching assistant` of `VE475 Intro to Cryptography` with 1 other TA `Hanyu Wang` Summer 2021.
+
+##### Our responsibility & job:
+
+1. `Grader`: grade homework & exam paper
+
+2. Hold office hour & answer questions on Piazza
+
+##### Env Setup
+
+Install the GNU Multi Precision Arithmetic Library (`GMP`) from https://gmplib.org/ or its fork MPIR available at http://mpir.org/. Note that MPIR has a better support for Windows, although no binaries are officially provided. GMP is available on any modern Linux distribution.
+
+##### Programming:
+
+1. In the AES, choose two layers to implement in C. The 128 bits should be looked at as an unsigned char pointer. Operations should be implemented using logical operators (and, or, and xor).
+
+   A bonus will be given for each extra layer implemented, and the generation of the S-Box. A big bonus will reward a complete implementation of the AES.
+
+2. Implement the three functions generate, encrypt and decrypt, which generate the RSA parameters, encrypt, and decrypt, respectively.
+
+   The function generate takes as input a security level and generate p and q such that n is long enough to match the required security level. No special requirement is requested on encrypt and decrypt.
+
+3. Implement the Pollard-rho factorization algorithm.
